@@ -36,7 +36,7 @@
   }
   
   /* Float the link section to the right */
-  .h_header-right {
+  .header_right{
     float: right;
   }
   
@@ -47,8 +47,8 @@
       display: block;
       text-align: left;
     }
-    .h_header-right {
-      float: none;
+    .header_right {
+      float: left;
     }
   }
 
@@ -92,3 +92,32 @@
   }
 
   /* ############################################################################################ */
+
+  .logos1 {
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .logos2 {
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .bg_img {
+    background-image: url(../images/bimg.jpg);
+    background-color: #cccccc;
+    text-align: center;
+    color: white;
+    height: 500px;
+
+  }
