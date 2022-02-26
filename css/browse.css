@@ -1,0 +1,11 @@
+.categories-index{-webkit-font-smoothing: antialiased;
+color: #535455;
+box-sizing: inherit;
+font: inherit;
+vertical-align: baseline;
+margin: 0;
+padding: 0;
+column-gap: 1em;
+background: #ffffff;
+border: 1px solid rgba(0,0,0,0.2);
+column-count: 1;}
